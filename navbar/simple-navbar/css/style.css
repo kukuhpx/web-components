@@ -1,0 +1,80 @@
+/* Navbar with display: table */
+.nav-1 {
+    display: table;
+    border-radius: 30px;
+}
+
+.nav-1 li {
+    display: table-cell;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-1 li a {
+    display: block;
+}
+
+/* Navbar with display: inline-block */
+.nav-2 {
+    font-size: 0; /* This is for removing margin inline block */
+}
+
+.nav-2 li {
+    display: inline-block;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px; /* Set your font size */
+}
+
+.nav-2 li a {
+    display: block;
+}
+
+/* Navbar with float: left */
+.nav-3 {
+    overflow: auto;
+}
+
+.nav-3 li {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-3 li a {
+    display: block;
+}
+
+/* Navbar with display: flex */
+.nav-4 {
+    display: flex;
+}
+
+.nav-4 li {
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.nav-4 li a {
+    display: block;
+}
+
+/* Pill menu list */
+.pill-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    border:2px solid #aaaaaa;
+    border-radius: 30px;
+    background-color: #eaeaea;
+}
+
+.pill-menu li a {
+    display: block;
+}

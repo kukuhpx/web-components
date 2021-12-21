@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+    <style>
+        ul {padding: 0;}
+        li {list-style: none;}
+        li:hover {opacity: 0.5;}
+        a {color: #000000; text-decoration: none;}
+    </style>
+</head>
+<body>
+    <h3>Navbar with display: table</h3>
+    <div class="menu">
+        <ul class="nav-1">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    
+    <h3>Navbar with display: inline-block</h3>
+    <div class="menu">
+        <ul class="nav-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>    
+    </div>
+    <h3>Navbar with float: left</h3>
+    <div class="menu">
+        <ul class="nav-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+
+    <h3>Navbar with display: flex</h3>
+    <div class="menu">
+        <ul class="nav-4">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <script>
+        var menu = document.getElementsByClassName('menu');
+        menu[0].style.backgroundColor = '#d5d5d5';
+        menu[1].style.backgroundColor = '#7cfc00';
+        menu[2].style.backgroundColor = '#add8e6';
+        menu[3].style.backgroundColor = '#ffb6c1';
+    </script>
+</body>
+</html>
